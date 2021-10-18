@@ -1,29 +1,28 @@
 {
   "name": "confusion",
   "version": "1.0.0",
-  "description": "This is a website for Ristorante Con Fusion",
+  "description": "",
   "main": "index.html",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.6.0",
+    "lite-server": "^2.6.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server"
   },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "lite-server": "^2.6.1"
-  },
-  "dependencies": {
-    "bootstrap": "^4.6.0",
-    "jquery": "^3.6.0",
-    "popper.js": "^1.16.1"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/godazu/assignment4.git"
+    "url": "git+https://github.com/godazu/ConFusion.git"
   },
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/godazu/assignment4/issues"
+    "url": "https://github.com/godazu/ConFusion/issues"
   },
-  "homepage": "https://github.com/godazu/assignment4#readme"
+  "homepage": "https://github.com/godazu/ConFusion#readme"
 }
